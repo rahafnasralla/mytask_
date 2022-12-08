@@ -22,7 +22,7 @@ const Search = (props) => {
                 type="button"
                 className="find-weather-button"
                 onClick={FindWeatherClicked}
-                value="FIND WETHER"
+                value="FIND WEATHER"
             />
                
         </div>
