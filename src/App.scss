@@ -1,28 +1,96 @@
+
 .app {
   height: 100vh;
   width: 100vw;
-  transition: background-color 1s ease-in;
+  transition: background-color;
+  overflow: hidden;
+}
+
+* {
+  font-family: "Raleway";
 }
 
 .app__header,
 .app__main {
-  width: 100%;
-  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  font-family: 'Raleway', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Raleway';
+  width: 100%;
+  display: flex;
+  padding: 0px;
+  margin:0px;
 }
 
-
 /*  Search bar */
+.search {
+    background-color: #759eda;
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+}
 
+.search-input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-color: #1b334e;
+    margin-right: 20px;
+    padding: 5px;
+}
 
+::placeholder { 
+  color: white;
+  opacity: 0.5; 
+}
 
-/* Current weather */
+.find-weather-button {
+    background-color: #5879c7;
+    border: none;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+}
+.find-weather-button:hover {
+  background-color: #3879c7;
+}
 
+/* Current Weather*/
+.weather-now {
+  margin-bottom: 80px;
+}
 
+.now-img {
+  width: 100%;
+  height: 200px;
+}
+
+.description {
+  color:white;
+  text-align: center;
+  font-size: 25px;
+}
+
+.temperature {
+  text-align: center;
+  font-size: 20px;
+}
+
+.humidity {
+  text-align: center;
+  font-size: 15px;
+}
 
 /* Future weather */
+.weather-3-hour{
+  display: flex;
+  gap: 100px;
+}

@@ -1,0 +1,9 @@
+ #9ccef4 background color 
+ #759eda search bar 
+ #5879c7 button color
+ #2490ff clear sky 
+ #a2b6d5 rain 
+
+ 88b9ffbb25b4d7eedb65588edfdf020d api key 
+
+ http://api.openweathermap.org/data/2.5/forecast?q=${CITY_NAME}&cnt=8&units=metric&appid=${YOUR_API_KEY}
